@@ -1,11 +1,13 @@
+
+{
+  "compilerOptions" : {
+    "baseUrl" : "./",
+    "paths" : {
+      "@/*":["src/*"]
+    }
+  }
+}
+
 // 这个配置项只做联想提示
 // vite.config.js做路径转换
 //这样就不用在写代码的时候写一堆../来找到路径了
-{
-    "compilerOptions" : {
-      "baseUrl" : "./",
-      "paths" : {
-        "@/*":["src/*"]
-      }
-    }
-  }
